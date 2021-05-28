@@ -8,11 +8,11 @@ namespace mic_book_galery_definitivo.Controllers
 {
     public class ComicBookController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Detail()
         {
-            //return View();
-            string todaysDate = DateTime.Now.ToShortDateString();
-            return Ok(todaysDate);
+            return View();
+            //string todaysDate = DateTime.Now.ToShortDateString();
+            //return Ok(todaysDate);
         }
     }
 }
